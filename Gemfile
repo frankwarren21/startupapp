@@ -12,4 +12,4 @@ end
 
 group :develoment do
   gem 'sq
->>>>>>> origin/master
+end
