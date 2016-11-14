@@ -4,12 +4,3 @@ gem 'sinatra', '1.4.7'
 gem 'rubygems'
 gem 'twilio-ruby'
 gem 'sinatra'
-
-
-group :production do
-  gem 'pg'
-end
-
-group :develoment do
-  gem 'sq
-end
