@@ -1,6 +1,6 @@
 require 'rubygems'
-require 'twilio-ruby'
-require 'sinatra'
+require 'Twilio-ruby','4.13.0'
+require 'sinatra','1.4.7'
 
 
 
