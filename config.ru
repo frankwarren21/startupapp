@@ -1,2 +1,3 @@
-require './server.rb'
-run Sinatra::Application
+require './app.rb'
+require './views/index.rb'
+run sinatra::application
