@@ -1,3 +1,3 @@
-require './app.rb'
-require './views/index.rb'
-run sinatra::application
+require './web'
+reqiure 'sinatra'
+run Sinatra::Application
