@@ -1,4 +1,3 @@
 require 'sinatra'
-require './index.erb'
-require './app.rb'
+require './web'
 run Sinatra::Application
