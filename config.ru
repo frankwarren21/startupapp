@@ -1,2 +1,2 @@
-reqiure 'sinatra'
+require 'sinatra'
 run Sinatra::Application
