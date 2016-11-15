@@ -14,11 +14,11 @@ end
 post '/send' do
 
   @client = Twilio::REST::Client.new(account_sid, auth_token)
-  to_number = params.fetch('number').delete('.-').to_i
+  to_number = params.fetch('number').delete('.-').delete(' ').delete(')(').to_i
 
   @client.account.messages.create({
     :from => '+19179094316',
     :to => to_number,
-    :body => 'WORKING',
+    :body => 'Thanks for the text!',
   })
 end
